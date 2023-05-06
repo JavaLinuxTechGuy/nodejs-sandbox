@@ -3,9 +3,11 @@ https://playwright.dev/docs/test-cli
 https://playwright.tech/blog/tracking-frontend-coverage-with-playwright
 
 ```
+npm i
 export NODE_OPTIONS=--openssl-legacy-provider
 
 npm test
+npm test:ui
 npx playwright test
 ```
 ## Coverage formats
